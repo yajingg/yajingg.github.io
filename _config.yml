@@ -1,6 +1,6 @@
 name: Yajing
 description: A website for Yajing Gao
-baseurl: 'https://yajingg.github.io/'
+baseurl: 'https://yajingg.github.io'
 
 url: "http://localhost:4000"
 
