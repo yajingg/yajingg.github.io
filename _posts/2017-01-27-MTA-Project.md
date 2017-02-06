@@ -3,6 +3,9 @@ layout: post
 title: Analyzing New York Subway Data
 ---
 
+![]({{ site.baseurl }}/assets/images/pic03.jpg)
+{: .image.featured}
+
 The first week of Metis is over. We had four short days to complete our first project, which is to analyze the New York Subway turnstile and presenting the results to a hypothetical client intrested using the information for their business. Despite other distraction and the time constraint I was able to complete a cool exploratory analysis of the data.
 
 ![turnstile]({{ site.baseurl }}/assets/images/01-turnstile.png "NY MTA Turnstile")
