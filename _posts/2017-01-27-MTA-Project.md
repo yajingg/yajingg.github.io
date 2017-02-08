@@ -23,7 +23,8 @@ The method I chose to use is Fast Fourier Transform on the Entries and Exits for
 As a starting point of analysis, we can look at the ratio of Entry and Exit amplitudes for the daily period of each station. As can be seen in the graph, there appears to be a positive relation between them. This is promising, as we expect daily commutes of each station to be proportional, people generally enter and exit at the same station during commutes.
 
 ![Phase]({{ site.baseurl }}/assets/images/01-phase_comp.png	=100x "Phase Compare")
-<img src="{{ site.baseurl }}/assets/images/01-phase_comp.png" width="100%"
+
+<img src="{{ site.baseurl }}/assets/images/01-phase_comp.png" width="100%">
 
 Here is a plot of the phase of the entry and exit daily period for stations. This method appears able to be filtering out the residential and business stations. In the morning, people are entering stations near their residence and exiting near the business district, while the reverse is true in the after noon.
 
