@@ -8,6 +8,7 @@ title: Analyzing New York Subway Data
 
 This project is on how to analyze the New York Subway turnstile data and presenting the results to a hypothetical client interested using the information for their business. Despite other distraction and the time constraint, I was able to complete a cool exploratory analysis of the data.
 
+<!--more-->
 ![turnstile]({{ site.baseurl }}/assets/images/01-turnstile.png "NY MTA Turnstile")
 
 The turnstile data is pretty messy, the table consists of a list of values for a particular turnstile at a particular station at a time. New time data are updated about every 4 hours. The output values of this data are the entry and exit cumulative counts for that particular turnstile/station/time combination. What makes this data messy is the fact that the raw number of entries/exits are computed by subtracting the value at one time by the value of the previous time. In addition, sometimes the turnstils reset their values, or their value can be overflow back down to zero. The data is also incomplete, some dates and times might be missing or not sync'd between stations/turnstiles.
