@@ -31,6 +31,6 @@ One can also make plot of the predicted gross for each year against the estimate
 
 ![]({{ site.baseurl }}/assets/images/02-fit.png "Final Fit")
 
-Finally fitting total gross with independent variables of GDP change (this is a more direct predictor of the economy than unemployment), it can be shown that a cubic time variable give the best fit with evenly distributed residuals. This is certainly not looking very good for the movie industry as a whole, where the total gross is predicted to go down in the next few years. Although the down trend is still higher than the low value of the 1980's an early 1990's, it is still too early to tell whether this is a temporary or a perminant phenomenon.  
+Finally fitting total gross with independent variables of GDP change (this is a more direct predictor of the economy than unemployment), it can be shown that a cubic time variable give the best fit with evenly distributed residuals. This is certainly not looking very good for the movie industry as a whole, where the total gross is predicted to go down in the next few years. Although the down trend is still higher than the low value of the 1980's an early 1990's, it is still too early to tell whether this is a temporary or a permanent phenomenon.  
 
 
