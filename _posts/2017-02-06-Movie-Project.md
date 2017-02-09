@@ -26,7 +26,6 @@ The values of the normalized gross varies widely between years. I have some theo
 I plotted the log y-axis scaled top 100 gross plot of movies for each year, with purple being 1982 and red being 2015, the trend shows almost a linear relation for movies which grossed in the 20 to 100 range. This trend is fitted with a simpel linear model to yield a constant multiplied by 0.98 to the power of the rank. I termed this the Movie Buff Model, where the gross of each movie can be estimated by taking 0.98 times the previous value. An interesting feature of this model is that it does not include the top blockbuster, so using the method the total gross of each year can be estimated without the influence of the top grossing movies.  
 
 ![]({{ site.baseurl }}/assets/images/02-blockbuster.png "Blockbusters")
-![]({{ site.baseurl }}/assets/images/02-example-years.png "Example Years")
 
 One can also make plot of the predicted gross for each year against the estimated blockbuster gross (here estimated by subtracting the Movie Buff predictioon from the total gross). This plot shows movies that have low blockbuster and low total gross on the lower left, high blockbuster and high gross on the top right, and interestingly some years with high blockbuster but with low total gross on the lower right. This plot does not show a clear linear relation, thus we can say blockbusters are not a very good predicter of total gross, although there appears to be a somewhat direct relation between the two.  
 
