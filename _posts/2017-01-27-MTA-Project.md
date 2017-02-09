@@ -3,7 +3,7 @@ layout: post
 title: Analyzing New York Subway Data
 ---
 
-![]({{ site.baseurl }}/assets/images/pic03.jpg)
+![]({{ site.baseurl }}/assets/images/01-banner.png)
 {: .image.featured}
 
 This project is on how to analyze the New York Subway turnstile data and presenting the results to a hypothetical client intrested using the information for their business. Despite other distraction and the time constraint, I was able to complete a cool exploratory analysis of the data.
