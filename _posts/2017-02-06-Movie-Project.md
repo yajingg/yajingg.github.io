@@ -8,7 +8,6 @@ title: Predicting Future Movie Gross
 
 The second project I worked on is trying to predict the future of the US domestic film industry by looking at the total gross of top 100 films. I chose top 100 because it is where the majority of the total gross come from. In addition I can gather the information of the top movies in addition to the total gross. The first part of the project involve scrapping for data online. I used Selenium because it give a nice interface that simulates user interaction with a website. More specifically the xpath function allow very good filter to find the information on each page. The main source of information I gathered is from moviedojo.com for the gross of top 100 films from 1982 to 2015. Other information are related to the factors I think influences the total gross, including the total US population, the consumer price index, the change in gdp, unemployment, and the movie price over the years.
 
-<!--more-->
 ![]({{ site.baseurl }}/assets/images/02-gross.png "Total Gross")
 
 This plot shows the total gross as a function of time, the trend is clearly increasing every year. Does this mean the future is bright for the film industry?  
