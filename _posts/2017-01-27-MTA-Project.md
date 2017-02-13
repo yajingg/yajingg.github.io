@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Analyzing New York Subway Data
+category: data
 ---
 ![]({{ site.baseurl }}/assets/images/01-banner.png)
 {: .image.featured}
