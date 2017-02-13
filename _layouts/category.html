@@ -1,6 +1,5 @@
----
-layout: default
----
+{% include header.html %}
+
 <h2>Posts related to: {{ page.title }}</h2>
 
 {% unless page.content == '' %}
@@ -35,3 +34,5 @@ layout: default
 </div>
 <hr>
 {% endfor %}
+
+{% include footer.html %}
