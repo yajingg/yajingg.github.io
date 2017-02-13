@@ -1,6 +1,12 @@
-{% include header.html %}
-
-<h2>Posts related to: {{ page.title }}</h2>
+---
+title: Category {{ page.title }}
+layout: default
+---
+<section class="box special">
+  
+<header class="major">
+  <h2>Posts related to: {{ page.title }}</h2>
+</header>
 
 {% unless page.content == '' %}
   <p>{{ page.content }}</p>
@@ -10,7 +16,7 @@
   <p>No posts in this category at this time.</p>
 {% endunless %}
 
-{% for post in site.categories.[page.category] %}
+{% for post in site.categories.[page.category] offset: 0 limit: 10 %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            
@@ -23,16 +29,10 @@
         {% endif %}
     </a>
     <p class="post-meta">
-      Posted by 
-      {% if post.author %}
-        {{ post.author }}
-      {% else %}
-        {{ site.title }}
-      {% endif %} 
-      on {{ post.date | date: "%B %-d, %Y" }}
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>
 {% endfor %}
-
-{% include footer.html %}
+  
+</section>
