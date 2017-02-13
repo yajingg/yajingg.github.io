@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Predicting Future Movie Gross
+category: data
 ---
 ![]({{ site.baseurl }}/assets/images/02-banner.jpg)
 {: .image.featured}
