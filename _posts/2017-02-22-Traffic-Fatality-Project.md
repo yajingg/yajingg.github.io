@@ -27,6 +27,6 @@ The final vehicle body type comparison is between motorcycles and buses/trucks. 
 
 As an example of comparing car makers, this is a plot of select German car companies. The circles are female drivers, while squares are male drivers. The colors are now the 10 different class of vehicles. Different makes of cars did not make too much of a difference in the predicted probability. With Porsches, there is a very small sample size, but perhaps due to the car type being all 2-doors, the predicted probability for those 4 points are a bit high at close to 0.60.
 
-![]({{ site.baseurl }}/assets/images/03-d.png "genders")
+<img src="{{ site.baseurl }}/assets/images/03-d.png " width="100%">
 
 Finally a plot can be made with varying age and gender. Once again with female being red and male being blue. At a first glance, the motorcycle and bus/tuck regions are clearly visible near the top and bottom respectively. Probability for female drivers are centered around 0.3, while male drivers between the age of 19 and 30 have a much higher probability, perhaps this means the insurance companies were right. Drivers over 85 also show higher chance of being liable, although there are fewer data points available. There are also a few 11 year olds in the data, not surprisingly they were not considered liable, since they were not charged. The gender difference is perhaps not only due to driving styles, were men might drive more aggressively, but also might be due to women being less likely to be charged, and perhaps differences in defensive driving similar to the bus/truck case.
